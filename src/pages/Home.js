@@ -1,9 +1,14 @@
-
+import Header from "../components/Header";
+import FollowersColumn from "../components/FollowersColumn";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Header />
+      <h1>Home</h1>
+      <FollowersColumn />
+    </>
+  );
+};
 
-export default Home
+export default Home;
