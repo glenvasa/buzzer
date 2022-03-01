@@ -5,8 +5,12 @@ const Home = () => {
   return (
     <>
       <Header />
-      <h1>Home</h1>
-      <FollowersColumn />
+      <div className="container">
+      
+        <FollowersColumn />
+        <div className="feed">  <h1>Home</h1></div>
+        <div className="suggested-box"></div>
+      </div>
     </>
   );
 };
